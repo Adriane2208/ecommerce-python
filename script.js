@@ -33,3 +33,28 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+document.addEventListener("DOMContentLoaded", function() {
+    const produits = [
+        { nom: "Sac girly bleu", prix: 15000, image: "a.jpg", url: "produit_a.html" },
+        { nom: "Matein noir", prix: 45000, image: "b.jpg", url: "produit_b.html" },
+        { nom: "Karissa rose", prix: 42500, image: "c2.jpg", url: "produit_c.html" }
+        // Ajouter produits
+    ];
+
+    const container = document.getElementById("produits-container");
+
+    produits.forEach(produit => {
+        const div = document.createElement("div");
+        div.classList.add("col-md-4");
+        div.innerHTML = `
+            <div class="product-box p-3 border rounded shadow">
+                <img src="${produit.image}" class="img-fluid" alt="${produit.nom}">
+                <h4>${produit.nom}</h4>
+                <p class="text-muted">Prix : ${produit.prix} Cfa</p>
+                <a href="${produit.url}" class="btn btn-outline-dark mt-2">🔍 Voir détails</a>
+                <button class="btn btn-dark mt-3 add-to-cart" data-name="${produit.nom}" data-price="${produit.prix}">🛒 Ajouter au panier</button>
+            </div>
+        `;
+        container.appendChild(div);
+    });
+});

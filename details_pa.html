@@ -3,16 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Sac girly bleu - Détails</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
 
     <div class="container mt-5">
-        <h2>Sac girly bleu</h2>
-        <img src="a.jpg" class="img-fluid" alt="Sac girly bleu">
-        <p>Prix : 15000 Cfa</p>
-        <p>Un sac élégant parfait pour toutes les occasions. Disponible en plusieurs couleurs.</p>
-        <a href="panier.html" class="btn btn-dark">🛒 Ajouter au panier</a>
+        <div class="row align-items-center">  <!-- Ajout de align-items-center pour aligner -->
+            <!-- Image du produit à gauche -->
+            <div class="col-md-6">
+                <img src="a.jpg" class="img-fluid rounded shadow" alt="Sac girly bleu">
+            </div>
+            
+            <!-- Informations du produit à droite -->
+            <div class="col-md-6">
+                <h2 class="fw-bold text-dark">Sac girly bleu</h2>
+                <p class="text-muted">Un sac élégant parfait pour toutes les occasions. Disponible en plusieurs couleurs.</p>
+                <p class="fw-bold">Prix : <span class="text-danger">15000 Cfa</span></p>
+                <a href="panier.html" class="btn btn-dark mt-3">🛒 Ajouter au panier</a>
+            </div>
+        </div>
     </div>
 
 </body>

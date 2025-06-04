@@ -2,6 +2,11 @@ body {
     background: linear-gradient(120deg, #f8e1e7 60%, #fbeee6 100%);
     font-family: Arial, sans-serif;
 }
+.navbar {
+    border-radius: 10px;  /* Arrondi léger */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    overflow: hidden; /* Évite les débordements */
+}
 
 .banner {
     padding: 60px 0;
@@ -9,6 +14,12 @@ body {
     text-align: center;
     color: black;
 }
+.banner {
+    border-radius: 15px; /* Arrondi plus doux */
+    overflow: hidden; /* Évite que l’image dépasse */
+    width: 100%; /* Garde la largeur complète */
+}
+
 
 .product-box {
     display: flex;

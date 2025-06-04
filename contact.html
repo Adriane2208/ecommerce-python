@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - E-commerce</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar navbar-expand-lg bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand text-dark fw-bold text-decoration-line-through" href="#">Adriane</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-dark fw-bold" href="index.html">🏠 Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark fw-bold" href="shop.html">🛍️ Shop</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark fw-bold" href="blog.html">📝 Blog</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark fw-bold active" href="contact.html">📩 Contact</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark fw-bold" href="profil.html">👤 Profil</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold border border-dark px-3 py-2 rounded" href="panier.html">🛒 Voir mon panier</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!--SECTION CONTACT -->
+    <div class="container mt-5">
+        <h2 class="text-center fw-bold mb-4">Contactez-nous</h2>
+        
+        <div class="row g-4">
+            <!-- Formulaire de contact -->
+            <div class="col-md-6">
+                <div class="card p-4 shadow-sm">
+                    <h4>Envoyez-nous un message</h4>
+                    <form id="contact-form">
+                        <input type="text" class="form-control mb-3" placeholder="Votre Nom" required>
+                        <input type="email" class="form-control mb-3" placeholder="Votre Email" required>
+                        <textarea class="form-control mb-3" placeholder="Votre Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-dark w-100">📩 Envoyer</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Coordonnées -->
+            <div class="col-md-6">
+                <div class="card p-4 shadow-sm">
+                    <h4>🏢 Nos coordonnées</h4>
+                    <p><strong>Adresse :</strong> Douala, Cameroun</p>
+                    <p><strong>Téléphone :</strong> 6XXXXXXX</p>
+                    <p><strong>Email :</strong> adriane@gmail.com</p>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2 class="text-white text-decoration-line-through">Adriane</h2>
+                    <img src="paymentlogo.png" class="w-100 bg-white mt-3">
+                    <div class="d-flex gap-3 mt-4">
+                        <a href="#" class="text-light"><i class="fab fa-github"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4>Contactez-nous</h4>
+                    <p>Douala, Cameroun</p>
+                    <p>Contact : 6XXXXXXX</p>
+                    <p>Email : adriane@gmail.com</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Profil</h4>
+                    <p><i class="fas fa-user"></i> Mon Compte</p>
+                    <p><i class="fab fa-paypal"></i> Checkout</p>
+                    <p><i class="fas fa-home"></i> Suivi des Commandes</p>
+                    <p><i class="fas fa-location-arrow"></i> Aide et soutien</p>
+                </div>
+                <div class="col-md-3">
+                    <input type="email" class="form-control mb-2" placeholder="E-mail">
+                    <button class="btn btn-outline-light w-100">Souscrire</button>
+                </div>
+            </div>
+            <p class="mt-4">© 2025 Adriane - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="Contact.js"></script>
+</body>
+</html>
