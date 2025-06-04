@@ -1,0 +1,29 @@
+.footer {
+   background: rgba(248, 225, 231, 0.9); /* Légèrement translucide */
+    backdrop-filter: blur(10px);
+
+    text-align: center;
+}
+
+.footer h2, .footer h4 {
+    color: white;
+}
+
+.footer p {
+    color: #949494;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.footer input {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 8px;
+}
+
+.footer button:hover {
+    background-color: white;
+    color: black;
+}

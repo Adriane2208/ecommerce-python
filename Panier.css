@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(120deg, #f8e1e7 60%, #fbeee6 100%); /* Rose beige */
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.summary {
+   background: linear-gradient(120deg, #fbeee6, #f8e1e7); /* Rose plus doux pour le résumé */
+    border-radius: 10px;
+}
+
+.card {
+    border: none;
+    background-color: #FFE3E3; /* Cartes des produits */
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #E67373; /* Bouton rose foncé */
+    transition: 0.3s ease-in-out;
+    color: white;
+}
+
+button:hover {
+    background-color: #C65454; /* Effet plus foncé */
+}
